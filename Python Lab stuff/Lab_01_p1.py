@@ -30,6 +30,9 @@ for i in range(1,6,1):
     M1 = int(input("Enter the marks  of Subject: "))
     Marks.append(M1)
 totalmarks = sum(Marks)
+print(name)
+print(Reg_no)
+print(Age)
 print("Total Marks: ",totalmarks)
 average = totalmarks/5
 print("Average: ",average)
