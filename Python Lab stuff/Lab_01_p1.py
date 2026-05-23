@@ -30,9 +30,9 @@ for i in range(1,6,1):
     M1 = int(input("Enter the marks  of Subject: "))
     Marks.append(M1)
 totalmarks = sum(Marks)
-print(totalmarks)
+print("Total Marks: ",totalmarks)
 average = totalmarks/5
-print(average)
+print("Average: ",average)
 if average >= 90:
     print("Grade: S")
 elif average >= 80 and average <90:
@@ -60,7 +60,7 @@ while True:
     else:
         print("Invalid input of month.")
 if calendar.isleap(year):
-    print(" The year {year} is a LEAP YEAR.")
+    print(" The year  is a LEAP YEAR.")
 else:
-    print(" The year {year} is NOT a leap year.")
+    print(" The year  is NOT a leap year.")
 print(calendar.month(year, month))
