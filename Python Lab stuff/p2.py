@@ -1,11 +1,14 @@
-#problem 11 distance between two poitns
-import math
-z1 = float(input("enter the x1: "))
-z2 = float(input("enter the x2: "))
-y2 = float(input("enter the y1: "))
-y3 = float(input("enter the y2: "))
-d1 = (z1 - y2)**2
-d2 = (z2 - y3)**2
-dist = math.sqrt(d1 + d2)
-print("Eucldiean distance between two points",dist)
-print(math.sqrt(8))
+#problem 2 addition,multiplication,division and subtraction of two numbers
+a = int(input("Enter 1st number: "))
+b = int(input("Enter 2nd number: "))
+choice = int(input("Enter 1 for addition, 2 for subtraction, 3 for multiplication, 4 for division: "))
+if choice == 1:
+    print("addition of both numbers: ", a + b)
+elif choice == 2:
+    print("Subtraction of both numbers: ",a - b)
+elif choice == 3:
+    print("a division b: ", a/b)
+elif choice == 4:
+    print("a multiplication b: ", a * b)
+else:
+    print("enter valid choice")
