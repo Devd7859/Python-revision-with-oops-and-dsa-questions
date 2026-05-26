@@ -6,7 +6,7 @@ c = float(input("enter the value of constant: "))
 d = b**2 - 4*a*c
 if d > 0:
     x0 = (-b + math.sqrt(d))/(2*a) 
-    x1 = (-b + math.sqrt(d))/(2*a) 
+    x1 = (-b - math.sqrt(d))/(2*a) 
     print("Two real roots: ")
     print(x0)
     print(x1)
