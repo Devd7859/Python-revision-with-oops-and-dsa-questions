@@ -29,7 +29,7 @@ else:
 #Part 4 of the Question:
 year = int(input("enter the year to check for leap year calculation: "))
 if year < 0:
-    print("year can not be negative.")
+    print("year can not be negative.") 
 else:
     if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
         print(f"{year} is a leap year. Correct Hospital Scheduling Applied.")
