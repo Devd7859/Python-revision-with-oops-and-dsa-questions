@@ -19,5 +19,7 @@ print(name.capitalize())
 #string escape sequence
 n = "Dev is a good buy \n not a \"bad\" boy"
 #\t to give tab space
+#\" \" for using double quotes
+
 print(n)
 
