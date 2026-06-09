@@ -1,0 +1,13 @@
+f = open("file.txt")
+lines = f.readline()
+print(lines, type(lines))
+line1 = f.readline()
+print(line1, type(lines))
+line2 = f.readline()
+print(line2, type(lines))
+line3 = f.readline()
+print(line3, type(lines))
+f.close()
+with open("myfile.txt","r") as f:
+    text = f.read()
+print(text)
