@@ -1,0 +1,3 @@
+Laptop,10,700
+Phone,50,300
+Table,30,250
